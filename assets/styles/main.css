@@ -345,12 +345,12 @@ Brackets
   
 ************************************************************************************/
 
-#player{
+/*#player{
     display: none;
 }
 .schedule{
     display: none;
-}
+}*/
 .casted{
     color: #c0392b;
 }

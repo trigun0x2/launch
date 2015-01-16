@@ -18,20 +18,20 @@ User Schedule
   
 ************************************************************************************/
 
-jQuery(document).ready(function($) {
-    var easter_egg = new Konami();
-    easter_egg.code = function() { 
-        alert("Congrats on making it to the Challenger's League!")
-        $('#player').slideDown(); 
-    }
-    easter_egg.load();
+// jQuery(document).ready(function($) {
+//     var easter_egg = new Konami();
+//     easter_egg.code = function() { 
+//         alert("Congrats on making it to the Challenger's League!")
+//         $('#player').slideDown(); 
+//     }
+//     easter_egg.load();
 
-    $("#code").submit(function (event) {
-        event.preventDefault();
-        code = $("#codebox").val();
-        if (code == "QQZW") {
-            $(".schedule").slideDown();
-            $(".player-groups").fadeOut();
-        }
-    })
-});
+//     $("#code").submit(function (event) {
+//         event.preventDefault();
+//         code = $("#codebox").val();
+//         if (code == "QQZW") {
+//             $(".schedule").slideDown();
+//             $(".player-groups").fadeOut();
+//         }
+//     })
+// });
