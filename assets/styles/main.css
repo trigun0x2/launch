@@ -354,3 +354,6 @@ Brackets
 .casted{
     color: #c0392b;
 }
+.advanced li {
+    padding-bottom: 10px;
+}
