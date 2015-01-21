@@ -361,3 +361,6 @@ Brackets
 .advanced li {
     padding-bottom: 10px;
 }
+.winner {
+    color: #27ae60;
+}
