@@ -14,7 +14,8 @@ h1, h2, h3 {
 }
 
 a {
-    color: rgba(255, 255, 255, 0.85);
+    color: #c0392b;
+    text-decoration: underline;
 }
 
 a:hover {

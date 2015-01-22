@@ -63,7 +63,7 @@ p {
 
 a {
     text-decoration: none;
-    
+    color: #3498db;
     transition-duration: 0.25s;
 }
 
@@ -363,4 +363,7 @@ Brackets
 }
 .winner {
     color: #27ae60;
+}
+.vods{
+    vertical-align: top !important;
 }
