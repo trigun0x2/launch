@@ -9,8 +9,8 @@ html,
 body {
     width: 100%;
     height: auto;
-    
     overflow: auto;
+    text-align: center;
 }
 
 /***********************************************************************************
@@ -44,8 +44,7 @@ h2 {
 
 h3 {
     font-size: 18px;
-    
-    margin-bottom: 5px;
+    margin-bottom: 50px;
 }
 
 h1 a,
@@ -70,10 +69,6 @@ a {
 p a,
 strong {
     font-weight: 700;
-}
-
-p a {
-    border-bottom: 1px solid;
 }
 
 /***********************************************************************************
@@ -121,14 +116,11 @@ Containers
 
 .row {
     width: 100%;
-    float: left;
     position: relative;
 }
 
 .content {
-    width: 500px;
-    
-    margin-left: 200px;
+
 }
 
 /***********************************************************************************
@@ -138,10 +130,7 @@ Body
 ************************************************************************************/
 
 body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background-color: #2c3e50;
 }
 
 body::after {
@@ -166,22 +155,14 @@ Header
 
 #header {
     border-bottom: 1px dashed;
-    
-    line-height: 200px;
-    
+    padding-bottom: 50px;
     display: none;
+    font-size: 25px;
 }
-
-#header .content span.logo {
-    font-size: 20px;
-    background-image: url("../images/logo.png");
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 80px;
-    
-    display: block;
-    
-    padding-left: 100px;
+.logo {
+  display: block;
+  width: 100px;
+  margin: 20px auto;
 }
 
 #header .status {
@@ -299,16 +280,21 @@ input:focus {
 Social
   
 ************************************************************************************/
-
+#social {
+  margin: auto;
+  width: 200px;
+  display: block;
+  margin-top: 50px;
+}
 #social a.icon {
     border-radius: 50%;
     
-    font-size: 18px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 60px;
     text-align: center;
     
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     
     float: left;
     margin-right: -5px;
@@ -366,4 +352,41 @@ Brackets
 }
 .vods{
     vertical-align: top !important;
+}
+
+/***********************************************************************************
+  
+Players
+  
+************************************************************************************/
+.player {
+  width: 200px;
+  display: inline-block;
+  padding: 0 20px 20px 0;
+  transition: all 0.5s ease;
+  -webkit-filter: grayscale(100%);
+  filter: gray; filter: grayscale(100%);
+}
+.player img{
+  width: 100%;
+}
+.player:hover{
+  filter: none;
+  -webkit-filter: none; 
+}
+.player .name{
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.champ-group{
+  margin-top: 50px;
+}
+.table{
+  width: 70%;
+  margin: auto;
+}
+.table th{
+  font-weight: bold;
+  padding: 10px;
 }
