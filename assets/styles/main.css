@@ -365,6 +365,9 @@ Players
   padding: 0 20px 20px 0;
   transition: all 0.5s ease;
 }
+.eliminated{
+    -webkit-filter: grayscale(100%); filter: grayscale(100%);
+}
 .player img{
   width: 100%;
 }
