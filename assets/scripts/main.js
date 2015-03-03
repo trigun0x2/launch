@@ -10,6 +10,10 @@ jQuery(document).ready(function($) {
 		$('#header').delay(100).fadeIn(1000);
 		$('#intro').delay(300).fadeIn(500);
 	});
+
+  $('.deck-link').click(function(){
+    $(this).parent().find(".decks").slideToggle();
+  });
 });
 
 /***********************************************************************************

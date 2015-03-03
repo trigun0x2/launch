@@ -391,3 +391,13 @@ Players
   font-weight: bold;
   padding: 10px;
 }
+.deck-link{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.decks{
+  display: none;
+}
+.winner-image{
+  width: 200px;
+}
